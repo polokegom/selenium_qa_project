@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"General journeys of logged-in users.":["Scenarios/Specs/GeneralJourney.html"],"Login-Logout Journey":["Scenarios/Specs/loginLogoutJourney.html"]}};

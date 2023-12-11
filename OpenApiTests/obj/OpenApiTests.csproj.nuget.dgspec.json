@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/OpenApiTests/OpenApiTests.csproj": {}
+  },
+  "projects": {
+    "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/GeneratedApiCode/src/Applications.WeShare.Swagger/Applications.WeShare.Swagger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/GeneratedApiCode/src/Applications.WeShare.Swagger/Applications.WeShare.Swagger.csproj",
+        "projectName": "Applications.WeShare.Swagger",
+        "projectPath": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/GeneratedApiCode/src/Applications.WeShare.Swagger/Applications.WeShare.Swagger.csproj",
+        "packagesPath": "/home/wethinkcode/.nuget/packages/",
+        "outputPath": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/GeneratedApiCode/src/Applications.WeShare.Swagger/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wethinkcode/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "JsonSubTypes": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.123/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/OpenApiTests/OpenApiTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/OpenApiTests/OpenApiTests.csproj",
+        "projectName": "OpenApiTests",
+        "projectPath": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/OpenApiTests/OpenApiTests.csproj",
+        "packagesPath": "/home/wethinkcode/.nuget/packages/",
+        "outputPath": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/OpenApiTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wethinkcode/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/GeneratedApiCode/src/Applications.WeShare.Swagger/Applications.WeShare.Swagger.csproj": {
+                "projectPath": "/home/wethinkcode/student_work/csharp/GroupProject/super-cool-group/weshare-qa/GeneratedApiCode/src/Applications.WeShare.Swagger/Applications.WeShare.Swagger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JsonSubTypes": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.123/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
