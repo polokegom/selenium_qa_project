@@ -38,7 +38,7 @@ This is a project to perform Quality Assurance Testing on the web application We
 
 ## Testing Team
 
-![Alt Text](doc/imgs/team.png)
+![Alt Text](doc/team.png)
 1. Polokego Makgakge (pomakga022@student.wethinkcode.co.za)
 2. Paballo Thobei (pathobe022@student.wethinkcode.co.za)
 3. Wanda Anna (waanna022@student.wethinkcode.co.za)
