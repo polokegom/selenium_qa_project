@@ -12,7 +12,7 @@ This is a project to perform Quality Assurance Testing on the web application We
 
 ## WeShare GUI Testing
 
-**The Test Journeys that were conducted using Gauge and Selenium:**
+**The User Journeys that were conducted using Gauge and Selenium:**
 
 1. Logging and logging out a user from the system
 2. Adding a new expense to a users account
